@@ -16,15 +16,20 @@
     margin-right:10px;
     width:960px;
      text-align: center;
-     
+     background-color: red;
    
 }
-#navigation ul li
-{
-   display:inline-block;
-   width:960px;
+#navigation li a
+{     text-align: center;
 
-    
+   display:block;
+   width:960px;
+   color:white;
+background-color:grey;
+overflow:hidden;
+padding:3px;
+    text-decoration: none;
+list-style-type:none;
 
   }
   #sidebar{
@@ -50,13 +55,10 @@
     width:960px;
     clear:both;
      text-align: center;
+   background-color:grey;
        } 
 
-@media screen and (max-width: 800px){
- .container{
-  width: 800px;
- }
-
+@media (max-width: 800px){
  #wrapper
 {
   
@@ -67,10 +69,12 @@
     width:800px;
    
 }
-#navigation ul li
+#navigation a li 
 {
-   display:inline-block;
+   display:block;
    width:800px;
+    text-decoration:none;
+list-style-type:none;
 
   }
   #sidebar{
@@ -93,12 +97,12 @@
  #footer
     {   
     width:800px;
-   
+   background-color:green;
        }
   
 }
 
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
   #wrapper
 {
   
@@ -107,14 +111,21 @@
 #header
 {   
     width:600px;
+  background-color:yellow;
     
 }
-#navigation ul li
+#navigation   li a
 {
-   display:inline-block;
-   width:600px;
+   display:block;
+   width:600px;    
+ text-decoration: none;
+   list-style-type:none;
+   background-color: red;
 
   }
+
+
+  
   #sidebar{
 
     width: 150px;
@@ -133,6 +144,8 @@
  }
  #footer
     {   
+  color:white;
+  background-color:black;
     width:600px;
    
        }
@@ -146,7 +159,7 @@
         <div id="header">
         <div id="navigation">
         <h3><center><font color=Blue>Virat Kohli</font></center></h3><hr><br><br>
-        <p>&nbsp;&nbsp;Click on the links below...</p>
+        <p>Click on the links below...</p>
         <ul>
         <li><a href="stats.html"> Statistics</a></li>
         <li><a href="awards.html"> Awards</a></li>
